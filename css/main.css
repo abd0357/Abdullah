@@ -1286,7 +1286,7 @@ ul {
 
 @media (max-width: 767px) {
   .events .email {
-    width: 300px;
+    max-width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1637,6 +1637,11 @@ ul {
 .discount .sponser .content {
   text-align: center;
   padding: 0 15px;
+}
+@media (max-width: 767px) {
+  .discount .sponser .content {
+    padding: 0;
+  }
 }
 .discount .sponser .content img {
   max-width: 300px;
