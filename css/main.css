@@ -1636,7 +1636,7 @@ ul {
 }
 .discount .sponser .content {
   text-align: center;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 @media (max-width: 767px) {
   .discount .sponser .content {
@@ -1653,6 +1653,11 @@ ul {
   line-height: 1.6;
   font-size: 18px;
   max-width: 500px;
+}
+@media (max-width: 767px) {
+  .discount .sponser .content p{
+    max-width: 300px;
+  }
 }
 .discount .request {
   display: flex;
