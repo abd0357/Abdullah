@@ -5,6 +5,7 @@
 
 body {
   font-family: "Cairo", sans-serif;
+  overflow-x: hidden;
 }
 
 html {
@@ -25,7 +26,6 @@ ul {
 .container {
   padding: 0 15px;
   margin: 0 auto;
-  max-width: 100%;
 }
 
 @media (min-width: 768px) {
