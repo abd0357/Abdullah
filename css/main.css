@@ -1209,7 +1209,7 @@ ul {
 
 @media (max-width: 767px) {
   .events .container img {
-    max-width: 400px;
+    max-width: 350px;
   }
 }
 
@@ -1684,13 +1684,18 @@ ul {
   color: white;
   font-size: 18px;
   font-weight: bold;
-  margin-top: 25px;
+  margin: 25px 0 45px 0;
 }
 /* End Discount */
 /* Start Footer */
 footer {
   background-color: #191919;
   padding-top: 100px;
+}
+@media (max-width: 991px) {
+  footer {
+    text-align: center;
+  }
 }
 footer .container {
   display: grid;
@@ -1706,7 +1711,14 @@ footer .box-1 h2 {
 footer .box-1 .social {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
+}
+@media (max-width: 991px) {
+  footer .box-1 .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 footer .box-1 .social a {
   display: flex;
@@ -1770,7 +1782,14 @@ footer .box-3 .line {
   margin: 0 0 30px 0;
   display: flex;
 }
-footer .box-3 .info{
+@media (max-width: 991px) {
+  footer .box-3 .line {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+footer .box-3 .info {
   line-height: 2;
 }
 footer .box-3 i {
@@ -1781,10 +1800,15 @@ footer .box-3 i {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 991px) {
+  footer .box-3 i {
+    margin-bottom: 10px;
+  }
+}
 footer .box-3 span {
   display: block;
 }
-footer .box-4 img{
+footer .box-4 img {
   width: 78px;
   border: 3px solid white;
   margin: 2px;
